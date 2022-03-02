@@ -12,8 +12,8 @@ To install from Debian repositories
 ```
 To Compile
 ```shell
-        sudo apt install sglobe g++ make libmbedtls-dev libssl-dev liblz4-dev cmake
-        export O3=~/O3 && mkdir $O3
+        sudo apt install g++ make libmbedtls-dev libssl-dev liblz4-dev cmake
+        export O3=~/sglobe && mkdir $O3
         export DEP_DIR=$O3/deps && mkdir $DEP_DIR
         export DL=$O3/dl && mkdir $DL
 ```
